@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KettikTasta</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="views/public/styles/sign.css">
+    <link rel="stylesheet" href="views/public/styles/styles.css">
+
+</head>
+<body>
+<!--navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="/views/public/pics/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Where to Go</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Map</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Useful Info</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About Kazakhstan</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--photosection-->
+<section>
+    <div class="hanshatyr">
+        <div class="hanshatyr2">
+            <div class="mainPagePhoto">
+                <img src="/views/public/pics/main.png" alt="Welcome to Kettiktasta">
+                <div class="mainPageText">
+                    <h1 class="welcomeKettikTasta">Welcome to KettikTasta</h1>
+                    <div class="basky1">Travel with us in Kazakhstan!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--usefulinfo-->
+<!--<section>-->
+<!--<div class="container-md">-->
+<!--    <div class="row">-->
+<!--        <div class="col-3">-->
+<!--            <img src="pics/location.png" class="card-img-top" alt="check">-->
+<!--            <article class="main-title animated" style="visibility: visible;">-->
+<!--                <p class="card-text">Where to stay</p>-->
+<!--            </article>-->
+<!--        </div>-->
+<!--        <div class="col-3">-->
+<!--            <img src="pics/aeroplane.png" class="card-img-top" alt="check">-->
+<!--            <article class="main-title animated" style="visibility: visible;">-->
+<!--                <p class="card-text">Airports information</p>-->
+<!--            </article>-->
+<!--        </div>-->
+<!--        <div class="col-3">-->
+<!--            <img src="pics/dombra.png" class="card-img-top" alt="check">-->
+<!--            <article class="main-title animated" style="visibility: visible;">-->
+<!--                <p class="card-text">Culture Information</p>-->
+<!--            </article>-->
+<!--        </div>-->
+<!--        <div class="col-3">-->
+<!--            <img src="pics/astana.png" class="card-img-top" alt="check">-->
+<!--            <article class="main-title animated" style="visibility: visible;">-->
+<!--                <p class="card-text">Architectural landmarks</p>-->
+<!--            </article>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--</section>-->
+        <button id="signBtn" class="btn" onclick="location.href = '/sign'">Sign In</button>
+
+<section id="page3sc" class="page3cl">
+    <div class="container-fluid">
+        <div class="section-contentOdin">
+            <div class="headingtextcake">
+                <div class="titlepage" data-aos="zoom-out-down">
+                    <h2>Here you can find and learn</h2>
+                </div>
+            </div>
+            <div id = "Cakes"class="rowOdin">
+                <div class="CakeOdin">
+                    <div class="CaketableOdin1 ">
+                        <img class="imgOdin zoom" src="/views/public/pics/jotel_cut-photo.ru.jpg" alt="">
+                        <div class="button1Odin">
+                            <a class="buton buton-text buton-Odin" href="/hotel" role="button">Where to stay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="CakeOdin">
+                    <div class="CaketableOdin2">
+                        <img class="imgOdin zoom" src="/views/public/pics/airplame.jpg" alt="">
+                        <div class="button2Odin">
+                            <a class="buton buton-text buton-Odin" href="/weather" role="button">Airplanes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="CakeOdin">
+                    <div class="CaketableOdin3">
+                        <img class="imgOdin zoom" src="/views/public/pics/yurt_cut-photo.ru_cut-photo.ru.jpg" alt="">
+                        <div class="button3Odin">
+                            <a class="buton buton-text buton-Odin" href="#" role="button">Kazakh Culture</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--carousel-->
+<!-- <div class="container slider" id =" sliderrr">
+    <div class="carousel slide" id="carouselControls" data-ride="carousel" >
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="pics/mountains-gfc55100ee_1920_cut-photo.ru.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Winter in Kazakhstan</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="pics/ptitsa-vesna-vetki-tsvety-tsvetenie-belye-boke_cut-photo.ru.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Spring in Kazakhstan</h5>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="pics/kolsai-lakes,-mountain-lake,-mountain-251292_cut-photo.ru.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Summer in Kazakhstan</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="pics/kazakhstan-autumn-colors-15_cut-photo.ru.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Autumn in Kazakhstan</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div> -->
+
+<!-- <section id="Animation" class="candle">
+    <div class="container-fluid">
+        <div class="enasty666od1n">
+            <div class="contact-info">
+                <h5 class="contact-info__title " data-aos="zoom-out-down" >Contact Info</h5>
+                <p class="contact-info__paragraph od1n5">
+                    Have a question? Call a Specialist or chat online.Get help buying.
+                </p>
+                <p class="contact-info__paragraph od1n5">
+                    Call 8(708) 666-6666
+                </p>
+                <div class="od1n5">
+                    <h6 class="contact-info__title-2">Address</h6>
+                    <p class="text_paragraph">
+                    <span class="contact-info__item od1n2">LCD Esentai Apartments, Al-Farabi Avenue, 77/3 Phone: 8(700) 666-6666
+                </span>
+
+                    </p>
+                    <p class="text_paragraph">
+                 <span class="contact-info__item od1n2">Email: candle@gmail.com
+
+             </span>
+
+                    </p>
+                </div>
+                <div class="od1n5">
+                    <h6 class="contact-info__title-2 ">COLLABORATE</h6>
+                    <p class="text_paragraph">
+                    <span class="contact-info__item od1n2">
+                    <i class="fax number"></i><span class="tel">candle.com</span>
+                    </span>
+                        <span class="contact-info__item">
+                    <i class="fax number"></i><span class="tel">Fax: 8(700) 666-6666</span>
+                    </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            вintegrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+</body>
+</html>

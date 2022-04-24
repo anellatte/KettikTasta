@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Montserrat:wght@500&family=Roboto:wght@700&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav-item {
+  
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    margin-right: 10px;
+    
+}
+.nav-item:hover {
+    color: #252525;
+}
+.collapse {
+   margin-left: 20px;
+}
+
+.container-fluid {
+    position: relative;
+display: block;
+height: 100%;
+}
+
+/*welcome page*/
+.hanshatyr2{
+    position: relative;
+    min-height: 1px;
+}
+.mainPagePhoto img{
+    max-width: 100%;
+}
+.mainPageText{
+    position: absolute;
+    top: 200px;
+    max-width: 100%;
+    padding-left: 290px;
+    text-align: right;
+    max-width: 100%;
+}
+.welcomeKettikTasta{
+    text-align: right;
+    padding-left: 480px;
+}
+.hanshatyr .mainPageText{
+    text-align: right;
+    color: #000000;
+    font-size: 8px;
+    text-transform: uppercase;
+}
+.hanshatyr .mainPageText .welcomeKettikTasta{
+    font-size: 44px;
+    line-height: 44px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: none;
+    font-weight: normal;
+    display: block;
+}
+
+.basky1 {
+    margin-bottom: 1.5em;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*.container-md {*/
+/*    position: absolute;*/
+/*     display: flex;*/
+/*     justify-content: center;*/
+/*     align-items: center;*/
+/*    background-color: rgba(200, 246, 235, 0.5);*/
+/*    max-width: 100%;*/
+/* }*/
+/*.row{*/
+/*    padding-top: 90px;*/
+/*    padding-bottom: 70px;*/
+/*    align-items: center;*/
+/*}*/
+/*.card-img-top{*/
+/*    max-width: 50%;*/
+/*    margin-left: 70px;*/
+/*}*/
+/*.card-text{*/
+/*    text-align: center;*/
+/*    margin-top: 20px;*/
+/*}*/
+
+
+
+.containerOdin {
+    max-width: 1140px;
+    width: 100%;
+    margin-right: 50px;
+    margin-left: 125px;
+}
+.headingtextcake {
+    margin: 50px;
+}
+/*rfeferrev*/
+
+.page3cl {
+    max-width: 1140px;
+    width: 100%;
+    margin-right: 50px;
+    margin-left: 125px;
+}
+.headingtextcake {
+    margin: 50px;
+}
+.page3Odin {
+    margin-left: 20px;
+}
+
+.rowOdin {
+    margin-left: 20px;
+}
+
+.titlepage {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.titlepage h2 {
+    padding: 0 0 36px 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: #050303;
+    line-height: 50px;
+    position: relative;
+    margin-bottom: 20px;
+    font-family: 'Niconne', cursive;
+}
+.titlepage h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70%;
+    margin: 10px auto;
+    width: 50%;
+    height: 4px;
+    font-family: 'Niconne', cursive;
+    background: #ffc3eb;
+}
+
+.imgOdin  {
+    height: 500px;
+    width: 350px;
+    margin-right: 5px;
+}
+.zoom {
+    transition: transform 0.2s; /* Animation */
+    margin: 0 auto;
+}
+.zoom:hover {
+    transform: scale(0.9);
+}
+
+.CakeOdin {
+    float: left;
+    margin-right:   10px;
+}
+
+.CakeOdin img {
+    display: flex;
+}
+.CaketableOdin1   {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin-left: 10px;
+
+}
+.CaketableOdin1 img {
+    max-width: 100%;
+    object-fit: cover;
+
+}
+.buton {
+    text-decoration: none ;
+    outline: none ;
+}
+.buton {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+
+}
+.buton-Odin {
+    background: rgb(255, 255, 255);
+    border: rgb(255, 172, 172);
+    max-width: 170px;
+    width: 100%;
+    margin-right: 0px;
+
+}
+.buton-Odin:hover {
+    background:#ffc3eb;
+}
+.button1Odin {
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    width: auto;
+    text-align: center;
+    padding: 5px;
+    overflow: hidden;
+    margin-top: 470px;
+    right: 10px;
+    left: 10px;
+
+}
+
+.buton-text {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+.buton-text:hover {
+    color: #000000;
+}
+/*2ph*/
+.CaketableOdin2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+
+
+}
+.CaketableOdin2 img {
+    max-width: 100%;
+}
+.phtobuilding {
+    margin-top: 50px;
+
+}
+.button2Odin {
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    width: auto;
+    text-align: center;
+    padding: 5px;
+    overflow: hidden;
+    margin-top: 470px;
+    right: 10px;
+    left: 10px;
+}
+/*3ph*/
+.CaketableOdin3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+
+}
+.CaketableOdin3 img {
+    max-width: 100%;
+}
+.button3Odin {
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    width: auto;
+    text-align: center;
+    padding: 5px;
+    overflow: hidden;
+    margin-top: 470px;
+    right: 10px;
+    left: 10px;
+}
+
+.team-social-links {
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+
+
+
+
+.enasty666od1n{
+    margin-top: 120px;
+    margin-right: 300px;
+}
+.contact-info,
+.contact-form {
+    width: 100%;
+    margin: auto;
+}
+
+.contact-info {
+    font-size: .9rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-form__title,
+.contact-info__title {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.enasty666od1n {
+    display: flex;
+}
+.enasty667od1n  {
+    width: 435px;
+    margin-left: 130px;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+#myBtn:hover {
+    background-color: #ffc3eb;
+}
+.topbutton {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.btn{
+    width: 20%;
+    background-color: #20261d;
+    margin-top:40px;
+    margin-left: 550px;
+    height: 45px;
+    border:none;
+    border-radius: 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color:#ffffff;
+    cursor: pointer;
+    justify-content: center;
+}
+
+/*carousel*/
+.carousel-item {
+    padding-top: 100px;
+}
+.carousel-item img {
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+.carousel-control-next {
+    margin-right: 20px;
+    margin-top: 600px;
+}
+.carousel-control-prev {
+    margin-left: 20px;
+    margin-top: 600px;
+}
+.carousel-indicators {
+    margin-bottom: 80px;
+}

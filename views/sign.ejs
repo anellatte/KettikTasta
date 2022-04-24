@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>kettiktasta</title>
+  <link rel="stylesheet" href="views/public/styles/sign.css">
+</head>
+<style>
+  body{
+    background-image: url(/views/public/pics/aje.jpg);
+  }
+</style>
+<body>
+
+<!--popup window animation-->
+<div class="login-popup">
+  <div class="box">
+    <div class="img-area">
+      <div class="img">
+      </div>
+      <h1>KettikTasta</h1>
+    </div>
+    <div class="form">
+      <h1>Sign In</h1>
+      <form>
+        <div class="form-group">
+          <input type="text" id="username" placeholder="Email" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="password" id="password" placeholder="Password" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="password" id="passwordRepeat" placeholder="Repeat your password" class="form-control">
+        </div>
+        <div class="form-group">
+          <label><input type="checkbox">
+            Remember Me
+          </label>
+        </div>
+        <button type="button" id="signBtn" class="btn">Log In</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="/views/public/js/popup.js"></script>
+</body>
+</html>
